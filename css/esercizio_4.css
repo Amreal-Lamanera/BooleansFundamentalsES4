@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+}
+
+#logo{
+  width: 150px;
+  height: 100px;
+}
+
+.hrbianco{
+  background-color: white;
+
+}
+
+body{
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+.contenitore{
+  margin: 0 10%
+}
+
+#txtlogo{
+  color: white;
+  display: inline-block;
+  margin: 0;
+}
+
+#numero{
+  background-color: darkgoldenrod;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#unread{
+  color: white;
+  font-size: 20px;
+}
+
+.B, .G{
+  border: 1px solid black;
+}
+
+.B{
+  background-color: white;
+}
+
+.G{
+  background-color: grey;
+}
+
+footer{
+  text-align: center;
+  color: white;
+}
+
+#firma{
+  font-size: 15px;
+}
+
+.oggetto{
+  width: 30%;
+  display: inline-block;
+
+
+}
+
+.corpo{
+  width: 67%;
+  display: inline-block;
+
+}
+
+.oggetto, .corpo{
+  font-size: 20px;
+}
